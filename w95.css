@@ -240,7 +240,6 @@
 	            inset -1px -1px 0 0 var(--w95-frame-highlight);
 }
 
-
 .w95-theme button.light:hover:disabled {
 	box-shadow: none;
 }
@@ -250,6 +249,9 @@
 	padding: 3px 4px 4px 3px;
 }
 
+.w95-theme a > button {
+	cursor: pointer;
+}
 
 .w95-theme ul.menu {
 	list-style: none;
